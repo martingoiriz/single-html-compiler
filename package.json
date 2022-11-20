@@ -1,0 +1,19 @@
+{
+  "name": "single-html-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compiler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node compiler.js --path=/Users/martingoiriz/Desktop/myProject",
+    "start:dev": "nodemon compiler.js --path=/Users/martingoiriz/Desktop/myProject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "html-minifier": "^4.0.0",
+    "jsdom": "^20.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
